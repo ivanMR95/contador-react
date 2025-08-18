@@ -16,7 +16,7 @@ Este contador permite **incrementar** un valor y **resetearlo** a cero.
 - Clonar el repositorio:
 
   ```bash
-  git clone https://github.com/TU_USUARIO/contador-react.git
+  git clone https://github.com/ivanMR95/contador-react.git
 
   cd contador-react
   npm install
