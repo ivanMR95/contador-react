@@ -6,6 +6,8 @@ Este contador permite **incrementar** un valor y **resetearlo** a cero.
 ## Funcionalidades
 
 - Incrementar el contador con un botón.
+- Decrementar el contador con otro botón.
+- Duplicarlo y dividirlo.
 - Resetear el valor a 0.
 - Estilos con CSS para una interfaz más atractiva.
 
@@ -30,13 +32,5 @@ Este contador permite **incrementar** un valor y **resetearlo** a cero.
 - React
 - Vite (para desarrollo rápido)
 - CSS3
-
----
-
-## Próximos pasos
-
-- Añadir un botón para decrementar.
-- Personalizar con más estilos o temas de colores.
-- Aprender a usar props y dividir en componentes.
 
 ---
