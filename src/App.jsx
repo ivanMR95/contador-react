@@ -8,6 +8,18 @@ function App() {
     setCount(count + 1);
   }
 
+  function decrementar() {
+    setCount(count - 1);
+  }
+
+  function doble() {
+    setCount(count * 2);
+  }
+
+  function mitad() {
+    setCount(count / 2);
+  }
+
   function resetear() {
     setCount(0);
   }
@@ -19,6 +31,18 @@ function App() {
 
       <button onClick={incrementar} style={{ marginRight: "10px" }}>
         + 1
+      </button>
+
+      <button onClick={decrementar} style={{ marginRight: "10px" }}>
+        - 1
+      </button>
+
+      <button onClick={doble} style={{ marginRight: "10px" }}>
+        doble
+      </button>
+
+      <button onClick={mitad} style={{ marginRight: "10px" }}>
+        mitad
       </button>
 
       <button onClick={resetear}>Reset</button>
